@@ -1,2 +1,0 @@
-# ghichicom
-Ghichi.com
