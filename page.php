@@ -15,7 +15,7 @@
  * @version 1.0
  */
 
-get_header(); ?>
+get_header('page'); ?>
 
 <div class="wrap">
 	<div id="primary" class="content-area">
