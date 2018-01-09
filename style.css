@@ -1,0 +1,244 @@
+/*
+ Theme Name:   Ghichi | Twenty Seventeen Child
+ Theme URI:    http://ghichi.com
+ Description:   Twenty Seventeen ChildTheme
+ Author:       Ghichi
+ Author URI:   http://ghichi.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-child
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Accessibility
+3.0 Alignments
+4.0 Clearings
+5.0 Typography
+6.0 Forms
+7.0 Formatting
+8.0 Lists
+9.0 Tables
+10.0 Links
+11.0 Featured Image Hover
+12.0 Navigation
+13.0 Layout
+   13.1 Header
+   13.2 Front Page
+   13.3 Regular Content
+   13.4 Posts
+   13.5 Pages
+   13.6 Footer
+14.0 Comments
+15.0 Widgets
+16.0 Media
+   16.1 Galleries
+17.0 Customizer
+18.0 SVGs Fallbacks
+19.0 Media Queries
+20.0 Print
+--------------------------------------------------------------*/
+.site-branding .wrap {
+    background: rgba(64,64,64,0.4);
+}
+
+/*--------------------------------------------------------------
+1.0 Normalize
+Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
+--------------------------------------------------------------*/
+html {
+    font-size: 62.5%;
+}
+body,
+button,
+input,
+select,
+textarea {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+/*--------------------------------------------------------------
+5.0 Typography
+--------------------------------------------------------------*/
+h1 {
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight: 300;
+}
+
+h2,
+.home.blog .entry-title {
+	color: #666;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 300;
+}
+/*--------------------------------------------------------------
+10.0 Links
+--------------------------------------------------------------*/
+
+a {
+	color: #222;
+	text-decoration: underline;
+}
+a:hover,
+a:active,
+a:focus {
+	color: #f90;
+	box-shadow: none;
+	text-decoration: underline;
+	outline: 0;
+}
+
+/* Hover effects */
+.entry-content a:focus,
+.entry-content a:hover,
+.entry-summary a:focus,
+.entry-summary a:hover,
+.widget a:focus,
+.widget a:hover,
+.site-footer .widget-area a:focus,
+.site-footer .widget-area a:hover,
+.posts-navigation a:focus,
+.posts-navigation a:hover,
+.comment-metadata a:focus,
+.comment-metadata a:hover,
+.comment-metadata a.comment-edit-link:focus,
+.comment-metadata a.comment-edit-link:hover,
+.comment-reply-link:focus,
+.comment-reply-link:hover,
+.widget_authors a:focus strong,
+.widget_authors a:hover strong,
+.entry-title a:focus,
+.entry-title a:hover,
+.entry-meta a:focus,
+.entry-meta a:hover,
+.page-links a:focus .page-number,
+.page-links a:hover .page-number,
+.entry-footer a:focus,
+.entry-footer a:hover,
+.entry-footer .cat-links a:focus,
+.entry-footer .cat-links a:hover,
+.entry-footer .tags-links a:focus,
+.entry-footer .tags-links a:hover,
+.post-navigation a:focus,
+.post-navigation a:hover,
+.pagination a:not(.prev):not(.next):focus,
+.pagination a:not(.prev):not(.next):hover,
+.comments-pagination a:not(.prev):not(.next):focus,
+.comments-pagination a:not(.prev):not(.next):hover,
+.logged-in-as a:focus,
+.logged-in-as a:hover,
+a:focus .nav-title,
+a:hover .nav-title,
+.edit-link a:focus,
+.edit-link a:hover,
+.site-info a:focus,
+.site-info a:hover,
+.widget .widget-title a:focus,
+.widget .widget-title a:hover,
+.widget ul li a:focus,
+.widget ul li a:hover {
+	color: #f90;
+	box-shadow: none;
+	text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+13.1 Header
+--------------------------------------------------------------*/
+.site-title {
+    font-size: 36px;
+    font-size: 3.6rem;
+}
+.site-description {
+    font-size: 24px;
+    font-size: 2.4rem;
+}
+
+/*--------------------------------------------------------------
+13.4 Posts
+--------------------------------------------------------------*/
+/* Post Landing Page */
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    color: #222;
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+ }
+ 
+ .home .page-title
+ {
+    display: none;
+ }
+
+/* Single Post */
+.single-featured-image-header {
+	background-color: #fafafa;
+	border-bottom: 1px solid #eee;
+	margin-bottom:  2rem;
+}
+
+/*--------------------------------------------------------------
+13.5 Pages
+--------------------------------------------------------------*/
+.page-header {
+	padding-bottom: 2em;
+}
+.home .page-header {
+	display:  none;
+}
+/*--------------------------------------------------------------
+19.0 Media Queries
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 48em) 
+{
+	.navigation-top {
+		font-size: 14px;
+		font-size: 1.4rem;
+	}
+}
+ 
+ @media screen and (min-width: 30em) {
+
+	/* Typography */
+ 	h2,
+	.home.blog .entry-title,
+	.page .panel-content .recent-posts .entry-title {
+		font-size: 20px;
+		font-size: 2rem;
+	}
+}
+
+@media screen and (min-width: 48em) {
+.single-post .entry-title, .page .entry-title {
+    font-size: 24px;
+    font-size: 2.4rem;
+	}
+
+	/* Posts */
+	.site-content {
+		padding: 2rem 0 0;
+	}
+
+}
+
+/*--------------------------------------------------------------
+21.0 Google Form
+--------------------------------------------------------------*/
+	/* Google Form Title */
+.freebirdFormviewerViewHeaderTitle {
+	font-size: 0;
+    display: none !important;
+}
+
