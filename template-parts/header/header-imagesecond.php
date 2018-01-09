@@ -12,8 +12,8 @@
 <div class="custom-header">
 
 		<div class="custom-header-media">
-			
-			<?php the_custom_header_markup(); ?>
+						<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ghichi-branding-secondpage.jpg">
+
 		</div>
 
 	<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
