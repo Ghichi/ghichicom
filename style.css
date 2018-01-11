@@ -172,9 +172,10 @@ a:hover .nav-title,
     font-size: 3.6rem;
 }
 .site-description {
-    font-size: 24px;
-    font-size: 2.4rem;
+    font-size: 18px;
+    font-size: 1.8rem;
 }
+
 
 /*--------------------------------------------------------------
 13.4 Posts
@@ -235,14 +236,6 @@ a:hover .nav-title,
 /*--------------------------------------------------------------
 19.0 Media Queries
 --------------------------------------------------------------*/
-
-@media screen and (min-width: 48em) 
-{
-	.navigation-top {
-		font-size: 14px;
-		font-size: 1.4rem;
-	}
-}
  
  @media screen and (min-width: 30em) {
 
@@ -272,6 +265,17 @@ a:hover .nav-title,
 		padding: 2rem 0 0;
 	}
 
+	.navigation-top {
+		font-size: 14px;
+		font-size: 1.4rem;
+	}
+
+	/* Site Branding */
+
+	.site-description {
+		font-size: 24px;
+		font-size: 2.4rem;
+	}
 }
 
 /*--------------------------------------------------------------
