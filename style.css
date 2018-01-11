@@ -180,6 +180,15 @@ a:hover .nav-title,
 13.4 Posts
 --------------------------------------------------------------*/
 /* Post Landing Page */
+
+.entry-meta {
+	color: #767676;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+
+/* Post Landing Page */
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
     color: #222;
     font-size: 24px;
@@ -244,6 +253,12 @@ a:hover .nav-title,
 		font-size: 20px;
 		font-size: 2rem;
 	}
+
+	h3 {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+
 }
 
 @media screen and (min-width: 48em) {
