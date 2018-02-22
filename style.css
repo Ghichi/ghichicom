@@ -51,6 +51,7 @@
 1.0 Normalize
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
+
 html {
     font-size: 62.5%;
 }
@@ -61,6 +62,11 @@ select,
 textarea {
 	font-size: 16px;
 	font-size: 1.6rem;
+}
+
+article.marking {
+    border: 2px solid #f90;
+    padding: 1rem;
 }
 
 /*--------------------------------------------------------------
@@ -75,10 +81,34 @@ h1 {
 h2,
 .home.blog .entry-title {
 	color: #666;
-	font-size: 20px;
-	font-size: 2rem;
+	font-size: 24px;
+	font-size: 2.4rem;
 	font-weight: 300;
 }
+.entry-sub-title {
+	font-size: 20px;
+	font-size: 2rem;
+	margin-bottom: 16px;
+	margin-bottom: 1.6rem;
+}
+.page .entry-sub-title {
+	font-size: 24px;
+	font-size: 2.4rem;
+	margin-bottom: 16px;
+	margin-bottom: 1.6rem;
+}
+	h3 {
+		font-size: 20px;
+		font-size: 2.0rem;
+}
+
+/*--------------------------------------------------------------
+8.0 Lists
+--------------------------------------------------------------*/
+.entry-content ul {
+    margin-left: 2rem;
+}
+
 /*--------------------------------------------------------------
 10.0 Links
 --------------------------------------------------------------*/
@@ -192,8 +222,8 @@ a:hover .nav-title,
 /* Post Landing Page */
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
     color: #222;
-    font-size: 24px;
-    font-size: 2.4rem;
+    font-size: 30px;
+    font-size: 3rem;
     font-weight: 800;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -221,6 +251,24 @@ a:hover .nav-title,
 .home .page-header {
 	display:  none;
 }
+.entry-content section {
+	margin-bottom: 6rem;
+}
+
+/*--------------------------------------------------------------
+13.4 Posts
+--------------------------------------------------------------*/
+
+/* Post Landing Page */
+.pagination,
+.comments-pagination {
+	border-top: 1px solid #eee;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 800;
+	padding: 2em 0 3em;
+	text-align: center;
+}
 
 /*--------------------------------------------------------------
 13.6 Footer
@@ -234,6 +282,20 @@ a:hover .nav-title,
 }
 
 /*--------------------------------------------------------------
+15.0 Widgets
+--------------------------------------------------------------*/
+
+h2.widget-title {
+	color: #222;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 800;
+	letter-spacing: 0.1818em;
+	margin-bottom: 1.5em;
+	text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
 19.0 Media Queries
 --------------------------------------------------------------*/
  
@@ -243,13 +305,32 @@ a:hover .nav-title,
  	h2,
 	.home.blog .entry-title,
 	.page .panel-content .recent-posts .entry-title {
-		font-size: 20px;
-		font-size: 2rem;
+		font-size: 30px;
+		font-size: 3rem;
 	}
+.entry-sub-title {
+	font-size: 24px;
+	font-size: 2.4rem;
+	margin-bottom: 16px;
+	margin-bottom: 1.6rem;
+}
+.page .entry-sub-title {
+	font-size: 24px;
+	font-size: 2.4rem;
+	margin-bottom: 16px;
+	margin-bottom: 1.6rem;
+}
 
 	h3 {
-		font-size: 18px;
-		font-size: 1.8rem;
+		font-size: 24px;
+		font-size: 2.4rem;
+	}
+
+	/* Site Footer */
+
+	.site-footer {
+		font-size: 16px;
+		font-size: 1.6rem;
 	}
 
 }
@@ -276,7 +357,26 @@ a:hover .nav-title,
 		font-size: 24px;
 		font-size: 2.4rem;
 	}
+
+	/* Widgets */
+
+	h2.widget-title {
+		font-size: 20px;
+		font-size: 2rem;
+		margin-bottom: 2em;
+	}
+	/* Footer */
+	.site-footer {
+		font-size: 16px;
+		font-size: 1.6rem;
+		line-height: 1.6;
+		margin-top: 3em;
+	}
+
+
 }
+
+
 
 /*--------------------------------------------------------------
 21.0 Google Form
