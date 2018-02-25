@@ -90,7 +90,10 @@ h2,
 	font-size: 2rem;
 	margin-bottom: 16px;
 	margin-bottom: 1.6rem;
+	border-left: 0.5rem solid #c5bb6a;
+	padding-left: 0.5rem;
 }
+
 .page .entry-sub-title {
 	font-size: 24px;
 	font-size: 2.4rem;
@@ -305,8 +308,8 @@ h2.widget-title {
  	h2,
 	.home.blog .entry-title,
 	.page .panel-content .recent-posts .entry-title {
-		font-size: 30px;
-		font-size: 3rem;
+		font-size: 24px;
+		font-size: 2.4rem;
 	}
 .entry-sub-title {
 	font-size: 24px;
@@ -337,8 +340,8 @@ h2.widget-title {
 
 @media screen and (min-width: 48em) {
 .single-post .entry-title, .page .entry-title {
-    font-size: 24px;
-    font-size: 2.4rem;
+    font-size: 30px;
+    font-size: 3rem;
 	}
 
 	/* Posts */
