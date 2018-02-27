@@ -240,9 +240,11 @@ a:hover .nav-title,
 
 /* Single Post */
 .single-featured-image-header {
-	background-color: #fafafa;
-	border-bottom: 1px solid #eee;
-	margin-bottom:  2rem;
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+/* background-color: #fafafa;
+	border-bottom: 1px solid #eee; */
+	margin-bottom:  2rem; 
 }
 
 /*--------------------------------------------------------------
@@ -361,6 +363,45 @@ h2.widget-title {
 		font-size: 2.4rem;
 	}
 
+	/* Site Header-2 */
+.entry-header-2 {
+    display:  flex;
+}
+
+.entry-lead {
+    width: 60%;
+}
+
+.single-featured-image-header {
+    width: 35%;
+}
+
+	/* Page */
+section.entry-content-part {
+    display: flex;
+}
+section.entry-content-part-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.entry-content-first {
+    width: 60%;
+    padding: 1rem;
+}
+.entry-content-second {
+    width: 35%;
+    padding: 1rem;
+}
+
+/* Pages */
+
+	.page.page-one-column .entry-header,
+	.twentyseventeen-front-page.page-one-column .entry-header,
+	.archive.page-one-column:not(.has-sidebar) .page-header {
+		margin-bottom: 0;
+	}
+
+
 	/* Widgets */
 
 	h2.widget-title {
@@ -375,7 +416,6 @@ h2.widget-title {
 		line-height: 1.6;
 		margin-top: 3em;
 	}
-
 
 }
 
