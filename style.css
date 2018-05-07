@@ -111,6 +111,10 @@ h2,
 .entry-content ul {
     margin-left: 2rem;
 }
+.content-area ul,
+.content-area ol {
+    margin-left: 2rem;
+}
 
 /*--------------------------------------------------------------
 10.0 Links
